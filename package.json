@@ -1,0 +1,25 @@
+{
+  "name": "@dwebs/buffer-key",
+  "version": "0.1.1",
+  "description": "Library For Converting dWeb, dPack and dDrive Keys To Buffers",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec"
+  },
+  "dependencies": {
+    "@dwebs/codec": "distributedweb/codec#master"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
